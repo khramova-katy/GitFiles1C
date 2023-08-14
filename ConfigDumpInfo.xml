@@ -26,12 +26,12 @@
 			<Metadata name="Catalog.ИнформационныеКарты.Attribute.ВладелецКарты" id="9e602194-859b-487f-b230-5bb96c377a2e"/>
 			<Metadata name="Catalog.ИнформационныеКарты.Attribute.ВидДисконтнойКарты" id="cb28acc2-a151-4ddb-a135-c1fddbe675ad"/>
 		</Metadata>
-		<Metadata name="Catalog.Номенклаутра" id="733bbcbf-8033-4caf-a8b9-a548b3b56a24" configVersion="fc3f061816dad4439be023555a2389d700000000">
-			<Metadata name="Catalog.Номенклаутра.Attribute.ВидНоменклаутры" id="6e5f6bd9-6955-402f-bb16-c55c0a3d680f"/>
-			<Metadata name="Catalog.Номенклаутра.Attribute.НДС" id="f216a59e-5cda-4afc-9bca-22e5eafc3f7e"/>
-			<Metadata name="Catalog.Номенклаутра.Attribute.ЕдиницаИзмерения" id="f7039c0d-70b7-47a8-b60e-2eb3bf08a405"/>
+		<Metadata name="Catalog.Номенклатура" id="733bbcbf-8033-4caf-a8b9-a548b3b56a24" configVersion="63d379534c1d924595af60e74695180f00000000">
+			<Metadata name="Catalog.Номенклатура.Attribute.ВидНоменклаутры" id="6e5f6bd9-6955-402f-bb16-c55c0a3d680f"/>
+			<Metadata name="Catalog.Номенклатура.Attribute.НДС" id="f216a59e-5cda-4afc-9bca-22e5eafc3f7e"/>
+			<Metadata name="Catalog.Номенклатура.Attribute.ЕдиницаИзмерения" id="f7039c0d-70b7-47a8-b60e-2eb3bf08a405"/>
 		</Metadata>
-		<Metadata name="Catalog.Номенклаутра.Predefined" id="733bbcbf-8033-4caf-a8b9-a548b3b56a24.1c" configVersion="92009d8e845b664789667362a1d03c7e00000000"/>
+		<Metadata name="Catalog.Номенклатура.Predefined" id="733bbcbf-8033-4caf-a8b9-a548b3b56a24.1c" configVersion="92009d8e845b664789667362a1d03c7e00000000"/>
 		<Metadata name="Configuration.Конфигурация" id="673b2e0c-c713-47da-aa52-6c0f61144211" configVersion="e1ff802e1c0b734ab289966f41cf1aad00000000"/>
 		<Metadata name="Document.ПринятиеКУчетуСертификатов" id="6326d584-be7e-415a-800a-8f405b7125a4" configVersion="7a444803fdbb5148bd259ef12b6f961b00000000">
 			<Metadata name="Document.ПринятиеКУчетуСертификатов.Attribute.Ответственный" id="3d591745-e451-455c-a896-cb4b15dbecfe"/>
@@ -49,7 +49,7 @@
 			<Metadata name="Document.СписаниеСертификатов.TabularSection.Сертификаты.Attribute.Количество" id="f8669ed9-33ab-4106-adee-8fadf8664ce1"/>
 		</Metadata>
 		<Metadata name="Document.СписаниеСертификатов.ObjectModule" id="259f1e51-4f0c-492c-afbf-98b5f43c1434.0" configVersion="10bb62b51377434381a54b13676214fa00000000"/>
-		<Metadata name="Document.ЧекККМ" id="4d4a4338-4429-433c-962f-1dcf6bf29cb4" configVersion="cc0473d07989bd44b07c204a805b840800000000">
+		<Metadata name="Document.ЧекККМ" id="4d4a4338-4429-433c-962f-1dcf6bf29cb4" configVersion="718803482c672a48955b82098c38b25100000000">
 			<Metadata name="Document.ЧекККМ.Attribute.Контрагент" id="19b77f02-f21d-4c1d-a390-6db3ca7da675"/>
 			<Metadata name="Document.ЧекККМ.TabularSection.Номенклатура.Attribute.Номенклатура" id="587376d8-4a97-4ad7-a8a2-2cf58b39f021"/>
 			<Metadata name="Document.ЧекККМ.TabularSection.Сертификаты.Attribute.Статус" id="6c6e41fa-9f5c-4ae9-afdc-c4164b57dff3"/>
@@ -61,8 +61,8 @@
 			<Metadata name="Document.ЧекККМ.Attribute.СуммаЧека" id="dc4985df-8f18-428c-ba96-e51c3430014f"/>
 			<Metadata name="Document.ЧекККМ.TabularSection.Сертификаты.Attribute.Сертификат" id="ea4dd0a7-5d45-484e-bbbb-59ad36b3759b"/>
 		</Metadata>
-		<Metadata name="Document.ЧекККМ.Form.ФормаДокумента" id="2e42b74f-389b-4257-8d7e-338909d699f6" configVersion="b74f8d43743b444d8dc332da6748c29300000000"/>
-		<Metadata name="Document.ЧекККМ.Form.ФормаДокумента.Form" id="2e42b74f-389b-4257-8d7e-338909d699f6.0" configVersion="a20dc9eab5a9ee4ab3703c1b6460aa0f00000000"/>
+		<Metadata name="Document.ЧекККМ.Form.ФормаДокумента" id="2e42b74f-389b-4257-8d7e-338909d699f6" configVersion="466aba8020d77649b4d802bc74310e7d00000000"/>
+		<Metadata name="Document.ЧекККМ.Form.ФормаДокумента.Form" id="2e42b74f-389b-4257-8d7e-338909d699f6.0" configVersion="601ac5e31cd07849a40888e26a25633300000000"/>
 		<Metadata name="Document.ЧекККМ.ObjectModule" id="4d4a4338-4429-433c-962f-1dcf6bf29cb4.0" configVersion="560df46998e75548875e0f3e88846bb700000000"/>
 		<Metadata name="Enum.ВидыНоменклатуры" id="f5a22802-74d7-4985-bec4-267748902a40" configVersion="a7e73bf1da5b42489d18ed162d53e12500000000">
 			<Metadata name="Enum.ВидыНоменклатуры.EnumValue.Услуга" id="57a47e42-d5ea-465e-8c0d-71469082dea9"/>

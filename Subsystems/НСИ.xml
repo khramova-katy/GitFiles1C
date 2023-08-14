@@ -16,7 +16,7 @@
 			<Explanation/>
 			<Picture/>
 			<Content>
-				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Номенклаутра</xr:Item>
+				<xr:Item xsi:type="xr:MDObjectRef">Catalog.Номенклатура</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ИнформационныеКарты</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ЕдиницыИзмерения</xr:Item>
 				<xr:Item xsi:type="xr:MDObjectRef">Catalog.ВладелецКарты</xr:Item>
