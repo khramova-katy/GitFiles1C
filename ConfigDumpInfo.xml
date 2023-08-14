@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ConfigDumpInfo xmlns="http://v8.1c.ru/8.3/xcf/dumpinfo" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" format="Hierarchical" version="2.16">
+	<ConfigVersions>
+		<Metadata name="AccumulationRegister.ЧекККМ" id="85efff9a-358f-48ca-b4cb-9199c88bdcca" configVersion="255b8796ca2f034298ea8bdecd7f2f9400000000">
+			<Metadata name="AccumulationRegister.ЧекККМ.Attribute.СертификатСтатус" id="24691f57-57e6-48a7-ba2b-cbccf3b9524e"/>
+			<Metadata name="AccumulationRegister.ЧекККМ.Resource.НоменклатураСумма" id="5119d7f1-8415-4058-979f-b2b4b82e57ff"/>
+			<Metadata name="AccumulationRegister.ЧекККМ.Resource.СуммаЧека" id="5548afd0-a002-48f2-915f-f104712db661"/>
+			<Metadata name="AccumulationRegister.ЧекККМ.Attribute.НоменклатураКоличество" id="8768d17e-76c8-4c93-9347-fe900835fb68"/>
+			<Metadata name="AccumulationRegister.ЧекККМ.Attribute.Номенклатура" id="88fd0910-f9ab-4e60-b5ea-a2263ceb2587"/>
+			<Metadata name="AccumulationRegister.ЧекККМ.Dimension.Контрагент" id="af49ec79-af01-44c7-a46b-f8c1f08f511f"/>
+			<Metadata name="AccumulationRegister.ЧекККМ.Attribute.Сертификат" id="b229dc3d-66bb-4c14-855e-77f81d2d24c8"/>
+			<Metadata name="AccumulationRegister.ЧекККМ.Attribute.СертификатКоличество" id="fcc0f161-00d1-4653-a492-7d38dbb7fc59"/>
+		</Metadata>
+		<Metadata name="Catalog.ВладелецКарты" id="25b64e34-b367-4ac0-ae14-f2331a2be031" configVersion="3a91f345edfe7c4a8d260dd0c39f0a4d00000000">
+			<Metadata name="Catalog.ВладелецКарты.Attribute.Фамилия" id="4fe53e20-2538-489a-839b-d5275b99aace"/>
+			<Metadata name="Catalog.ВладелецКарты.Attribute.ДатаРождения" id="ba949380-d0c0-4abc-890e-7f919b702d2a"/>
+			<Metadata name="Catalog.ВладелецКарты.Attribute.Имя" id="d535ea97-e475-4ece-ae3c-f3941c6bd636"/>
+			<Metadata name="Catalog.ВладелецКарты.Attribute.Отчество" id="d8ee0b60-477c-4484-9d1f-16bb0151b082"/>
+		</Metadata>
+		<Metadata name="Catalog.ВладелецКарты.Form.ФормаЭлемента" id="35fdb9fa-bdb4-402a-a823-47a933f93351" configVersion="1a34f6a18b74c84b9af85e5a83578f4300000000"/>
+		<Metadata name="Catalog.ВладелецКарты.Form.ФормаЭлемента.Form" id="35fdb9fa-bdb4-402a-a823-47a933f93351.0" configVersion="e41cbfcbfea5074383e75e65cfa783bb00000000"/>
+		<Metadata name="Catalog.ЕдиницыИзмерения" id="055835d5-0d94-46de-a7d0-ccda234a04e4" configVersion="956996a00b169c4c9cd19bb5519b360e00000000"/>
+		<Metadata name="Catalog.ИнформационныеКарты" id="e26f7a3a-2850-460e-8c8d-2a112b26289e" configVersion="6172377e68415c47b61092ae1d5bcd2900000000">
+			<Metadata name="Catalog.ИнформационныеКарты.Attribute.КоличествоЧеков" id="1acc23c5-3ddf-4abd-ac55-150aa08f3ff2"/>
+			<Metadata name="Catalog.ИнформационныеКарты.Attribute.Бонусная" id="38eb6dfb-2167-42d4-a4f0-0123fa53340d"/>
+			<Metadata name="Catalog.ИнформационныеКарты.Attribute.ВладелецКарты" id="9e602194-859b-487f-b230-5bb96c377a2e"/>
+			<Metadata name="Catalog.ИнформационныеКарты.Attribute.ВидДисконтнойКарты" id="cb28acc2-a151-4ddb-a135-c1fddbe675ad"/>
+		</Metadata>
+		<Metadata name="Catalog.Номенклаутра" id="733bbcbf-8033-4caf-a8b9-a548b3b56a24" configVersion="fc3f061816dad4439be023555a2389d700000000">
+			<Metadata name="Catalog.Номенклаутра.Attribute.ВидНоменклаутры" id="6e5f6bd9-6955-402f-bb16-c55c0a3d680f"/>
+			<Metadata name="Catalog.Номенклаутра.Attribute.НДС" id="f216a59e-5cda-4afc-9bca-22e5eafc3f7e"/>
+			<Metadata name="Catalog.Номенклаутра.Attribute.ЕдиницаИзмерения" id="f7039c0d-70b7-47a8-b60e-2eb3bf08a405"/>
+		</Metadata>
+		<Metadata name="Catalog.Номенклаутра.Predefined" id="733bbcbf-8033-4caf-a8b9-a548b3b56a24.1c" configVersion="92009d8e845b664789667362a1d03c7e00000000"/>
+		<Metadata name="Configuration.Конфигурация" id="673b2e0c-c713-47da-aa52-6c0f61144211" configVersion="e1ff802e1c0b734ab289966f41cf1aad00000000"/>
+		<Metadata name="Document.ПринятиеКУчетуСертификатов" id="6326d584-be7e-415a-800a-8f405b7125a4" configVersion="7a444803fdbb5148bd259ef12b6f961b00000000">
+			<Metadata name="Document.ПринятиеКУчетуСертификатов.Attribute.Ответственный" id="3d591745-e451-455c-a896-cb4b15dbecfe"/>
+			<Metadata name="Document.ПринятиеКУчетуСертификатов.TabularSection.Сертификаты.Attribute.Количество" id="4815b91a-ec64-4ad1-bb58-3d3ead140409"/>
+			<Metadata name="Document.ПринятиеКУчетуСертификатов.TabularSection.Сертификаты.Attribute.Статус" id="4e4e8c1e-ab5a-49b9-8d0c-4fde1596647c"/>
+			<Metadata name="Document.ПринятиеКУчетуСертификатов.TabularSection.Сертификаты" id="bc307f66-6c2e-44cb-a5f9-8fc729c795d0"/>
+			<Metadata name="Document.ПринятиеКУчетуСертификатов.TabularSection.Сертификаты.Attribute.Сертификат" id="f27516fc-42b7-4c41-bcf7-4280958b588d"/>
+		</Metadata>
+		<Metadata name="Document.ПринятиеКУчетуСертификатов.ObjectModule" id="6326d584-be7e-415a-800a-8f405b7125a4.0" configVersion="38e94b86b3d4b749b07c274ca3a47b9200000000"/>
+		<Metadata name="Document.СписаниеСертификатов" id="259f1e51-4f0c-492c-afbf-98b5f43c1434" configVersion="90e0d0c890c68d458265b9cb16e455c700000000">
+			<Metadata name="Document.СписаниеСертификатов.TabularSection.Сертификаты.Attribute.Сертификат" id="0589df64-5f30-4722-a361-c6f2a51bae1b"/>
+			<Metadata name="Document.СписаниеСертификатов.Attribute.Ответственный" id="50c70407-2e8d-48ab-89bd-62662e8e5280"/>
+			<Metadata name="Document.СписаниеСертификатов.TabularSection.Сертификаты" id="b8d3b426-ac5a-4c68-b850-98c9f0a58144"/>
+			<Metadata name="Document.СписаниеСертификатов.TabularSection.Сертификаты.Attribute.Статус" id="d7959d64-9e38-4f9b-8c79-e96ccab81260"/>
+			<Metadata name="Document.СписаниеСертификатов.TabularSection.Сертификаты.Attribute.Количество" id="f8669ed9-33ab-4106-adee-8fadf8664ce1"/>
+		</Metadata>
+		<Metadata name="Document.СписаниеСертификатов.ObjectModule" id="259f1e51-4f0c-492c-afbf-98b5f43c1434.0" configVersion="10bb62b51377434381a54b13676214fa00000000"/>
+		<Metadata name="Document.ЧекККМ" id="4d4a4338-4429-433c-962f-1dcf6bf29cb4" configVersion="cc0473d07989bd44b07c204a805b840800000000">
+			<Metadata name="Document.ЧекККМ.Attribute.Контрагент" id="19b77f02-f21d-4c1d-a390-6db3ca7da675"/>
+			<Metadata name="Document.ЧекККМ.TabularSection.Номенклатура.Attribute.Номенклатура" id="587376d8-4a97-4ad7-a8a2-2cf58b39f021"/>
+			<Metadata name="Document.ЧекККМ.TabularSection.Сертификаты.Attribute.Статус" id="6c6e41fa-9f5c-4ae9-afdc-c4164b57dff3"/>
+			<Metadata name="Document.ЧекККМ.TabularSection.Номенклатура" id="7302314e-de12-4cd0-b4ce-257b145c388b"/>
+			<Metadata name="Document.ЧекККМ.TabularSection.Сертификаты.Attribute.Количество" id="822553cb-d1fd-4973-b328-19fe1d182b48"/>
+			<Metadata name="Document.ЧекККМ.TabularSection.Сертификаты" id="92787898-0f47-422e-aaca-f91adce82838"/>
+			<Metadata name="Document.ЧекККМ.TabularSection.Номенклатура.Attribute.Количество" id="aa316c09-7a8c-4ca4-82f3-f5f4d958adbe"/>
+			<Metadata name="Document.ЧекККМ.TabularSection.Номенклатура.Attribute.Сумма" id="b010bf1a-3e5c-473c-88fd-d5cc9c3541a0"/>
+			<Metadata name="Document.ЧекККМ.Attribute.СуммаЧека" id="dc4985df-8f18-428c-ba96-e51c3430014f"/>
+			<Metadata name="Document.ЧекККМ.TabularSection.Сертификаты.Attribute.Сертификат" id="ea4dd0a7-5d45-484e-bbbb-59ad36b3759b"/>
+		</Metadata>
+		<Metadata name="Document.ЧекККМ.Form.ФормаДокумента" id="2e42b74f-389b-4257-8d7e-338909d699f6" configVersion="b74f8d43743b444d8dc332da6748c29300000000"/>
+		<Metadata name="Document.ЧекККМ.Form.ФормаДокумента.Form" id="2e42b74f-389b-4257-8d7e-338909d699f6.0" configVersion="a20dc9eab5a9ee4ab3703c1b6460aa0f00000000"/>
+		<Metadata name="Document.ЧекККМ.ObjectModule" id="4d4a4338-4429-433c-962f-1dcf6bf29cb4.0" configVersion="560df46998e75548875e0f3e88846bb700000000"/>
+		<Metadata name="Enum.ВидыНоменклатуры" id="f5a22802-74d7-4985-bec4-267748902a40" configVersion="a7e73bf1da5b42489d18ed162d53e12500000000">
+			<Metadata name="Enum.ВидыНоменклатуры.EnumValue.Услуга" id="57a47e42-d5ea-465e-8c0d-71469082dea9"/>
+			<Metadata name="Enum.ВидыНоменклатуры.EnumValue.Товар" id="d787660a-393a-49d0-bcf2-d0ff72e212ed"/>
+		</Metadata>
+		<Metadata name="Enum.СтавкиНДС" id="982f4c91-7e6f-4605-9bd9-fa41f6c7b6ac" configVersion="7657be26d89d9d408341c82e37a12bb100000000">
+			<Metadata name="Enum.СтавкиНДС.EnumValue.НДС18" id="07da5a20-68e7-4686-a3ee-f0b122cb2cea"/>
+			<Metadata name="Enum.СтавкиНДС.EnumValue.НДС10_110" id="2f9c69d6-8325-46a7-b537-4c294251ef01"/>
+			<Metadata name="Enum.СтавкиНДС.EnumValue.БезНДС" id="635c17cc-7c1c-4995-89ef-5b93e1313b66"/>
+			<Metadata name="Enum.СтавкиНДС.EnumValue.НДС18_118" id="9312d796-9db6-403e-a35e-31461509b668"/>
+			<Metadata name="Enum.СтавкиНДС.EnumValue.НДС0" id="9f51b5a0-1419-44ae-a17f-110d7babca63"/>
+			<Metadata name="Enum.СтавкиНДС.EnumValue.НДС10" id="b0b3d79b-85f3-4b2f-a0fe-fbcc42663e74"/>
+			<Metadata name="Enum.СтавкиНДС.EnumValue.НДС20_120" id="df601416-77f4-4931-8dbf-1223888b2cf5"/>
+			<Metadata name="Enum.СтавкиНДС.EnumValue.НДС20" id="e987b2de-2104-44d4-a9ae-e69b2fafac06"/>
+		</Metadata>
+		<Metadata name="Enum.СтавкиНДС.ManagerModule" id="982f4c91-7e6f-4605-9bd9-fa41f6c7b6ac.0" configVersion="dcb8d0252744b9488c00508fb94c6c4e00000000"/>
+		<Metadata name="Enum.СтатусДвиженияСертификатов" id="132241e9-e987-426f-9fdf-5aca5927d836" configVersion="ed1f6c44a5507649b5988c9575b4b90800000000">
+			<Metadata name="Enum.СтатусДвиженияСертификатов.EnumValue.НаРуках" id="2696d643-1127-4d38-a432-a9ec8805a071"/>
+			<Metadata name="Enum.СтатусДвиженияСертификатов.EnumValue.ВНаличии" id="d35f22d2-0cb3-45a5-b9a9-20943cde8238"/>
+			<Metadata name="Enum.СтатусДвиженияСертификатов.EnumValue.Списан" id="e7b42a54-ea70-4b7c-912a-80fb89a70754"/>
+		</Metadata>
+		<Metadata name="Enum.ТипыИнформационныхКарт" id="7577c6b2-dfd2-49ab-87fe-02955f81c607" configVersion="39cb41af2e468649bfc9089b6a54fe9400000000">
+			<Metadata name="Enum.ТипыИнформационныхКарт.EnumValue.Сертификат" id="5358a8b5-df17-4357-b306-a20d19bb4e37"/>
+			<Metadata name="Enum.ТипыИнформационныхКарт.EnumValue.НеСертификат" id="bb2f2033-d836-4dbd-9d11-a4d2941c4ffa"/>
+		</Metadata>
+		<Metadata name="Enum.ТипыОплатЧекаККМ" id="211fde24-c735-402c-aba6-e762d5dd26cc" configVersion="f270193e036c5b4d89b0d03b21a7151500000000">
+			<Metadata name="Enum.ТипыОплатЧекаККМ.EnumValue.ПодарочныйСертификат" id="4db3e445-bd34-4fa4-b5b4-57127b3cb471"/>
+		</Metadata>
+		<Metadata name="InformationRegister.ДвиженияСертификатов" id="8f0b5988-783f-44d0-9da6-d4afa9913f84" configVersion="ae06491e471ea44391d187755d40f82e00000000">
+			<Metadata name="InformationRegister.ДвиженияСертификатов.Attribute.ТипОплаты" id="191a53d9-04a9-496e-adf7-2c119e9bf31d"/>
+			<Metadata name="InformationRegister.ДвиженияСертификатов.Attribute.Статус" id="3158ebd4-253b-4fd7-a87a-fdbd75e4af23"/>
+			<Metadata name="InformationRegister.ДвиженияСертификатов.Dimension.Сертификат" id="83997073-43e9-4d83-845c-57279e232ca9"/>
+			<Metadata name="InformationRegister.ДвиженияСертификатов.Resource.Количество" id="9c2e57da-9a64-454e-afaa-c89811f7fb42"/>
+		</Metadata>
+		<Metadata name="Language.Русский" id="6fa0b9d4-ccf7-4077-878d-27df749fe9f5" configVersion="5457f66bbce98f4391c565058c10fbec00000000"/>
+		<Metadata name="Subsystem.Документы" id="e6132d5e-909e-4e77-a764-b7ac95a38256" configVersion="fc11abc921ef20458a5cb33dc5c6f64300000000"/>
+		<Metadata name="Subsystem.НСИ" id="e18d44cb-8e44-43ae-92b5-43edb04452d4" configVersion="d55c1c8ae95a26479ed6d1ae155c09c400000000"/>
+	</ConfigVersions>
+</ConfigDumpInfo>
