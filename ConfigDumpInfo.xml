@@ -11,7 +11,7 @@
 			<Metadata name="AccumulationRegister.ЧекККМ.Attribute.Сертификат" id="b229dc3d-66bb-4c14-855e-77f81d2d24c8"/>
 			<Metadata name="AccumulationRegister.ЧекККМ.Attribute.СертификатКоличество" id="fcc0f161-00d1-4653-a492-7d38dbb7fc59"/>
 		</Metadata>
-		<Metadata name="Catalog.ВладелецКарты" id="25b64e34-b367-4ac0-ae14-f2331a2be031" configVersion="3a91f345edfe7c4a8d260dd0c39f0a4d00000000">
+		<Metadata name="Catalog.ВладелецКарты" id="25b64e34-b367-4ac0-ae14-f2331a2be031" configVersion="69b1e3cfcaeb9f4db232dcd782504c2400000000">
 			<Metadata name="Catalog.ВладелецКарты.Attribute.Фамилия" id="4fe53e20-2538-489a-839b-d5275b99aace"/>
 			<Metadata name="Catalog.ВладелецКарты.Attribute.ДатаРождения" id="ba949380-d0c0-4abc-890e-7f919b702d2a"/>
 			<Metadata name="Catalog.ВладелецКарты.Attribute.Имя" id="d535ea97-e475-4ece-ae3c-f3941c6bd636"/>
