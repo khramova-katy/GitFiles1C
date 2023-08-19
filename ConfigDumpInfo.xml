@@ -102,6 +102,7 @@
 		<Metadata name="Role.ПолныеПрава.Rights" id="1bd840f2-eea2-4b81-b6dc-0e10cd8a98a4.0" configVersion="c13631c0ab66374aa4e3a2523518cd5a00000000"/>
 		<Metadata name="Subsystem.Документы" id="e6132d5e-909e-4e77-a764-b7ac95a38256" configVersion="fc11abc921ef20458a5cb33dc5c6f64300000000"/>
 		<Metadata name="Subsystem.НСИ" id="e18d44cb-8e44-43ae-92b5-43edb04452d4" configVersion="d55c1c8ae95a26479ed6d1ae155c09c400000000"/>
-		<Metadata name="Subsystem.Регистры" id="0f4eb5af-579c-4222-b816-a1f1898cad8e" configVersion="5a03cfd8674fe64bbb769d5ddfc872fa00000000"/>
+		<Metadata name="Subsystem.Регистры" id="0f4eb5af-579c-4222-b816-a1f1898cad8e" configVersion="369f62fdedfb85429f9408dbe68490bf00000000"/>
+		<Metadata name="Subsystem.Регистры.CommandInterface" id="0f4eb5af-579c-4222-b816-a1f1898cad8e.1" configVersion="8a53727eb327a848b81d491afcce7dcf00000000"/>
 	</ConfigVersions>
 </ConfigDumpInfo>
