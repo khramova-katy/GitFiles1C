@@ -226,6 +226,7 @@
 			<Language>Русский</Language>
 			<Subsystem>НСИ</Subsystem>
 			<Subsystem>Документы</Subsystem>
+			<Subsystem>Регистры</Subsystem>
 			<Role>ПолныеПрава</Role>
 			<Catalog>Номенклатура</Catalog>
 			<Catalog>ИнформационныеКарты</Catalog>
