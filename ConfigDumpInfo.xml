@@ -32,7 +32,7 @@
 			<Metadata name="Catalog.Номенклатура.Attribute.ЕдиницаИзмерения" id="f7039c0d-70b7-47a8-b60e-2eb3bf08a405"/>
 		</Metadata>
 		<Metadata name="Catalog.Номенклатура.Predefined" id="733bbcbf-8033-4caf-a8b9-a548b3b56a24.1c" configVersion="92009d8e845b664789667362a1d03c7e00000000"/>
-		<Metadata name="Configuration.Конфигурация" id="673b2e0c-c713-47da-aa52-6c0f61144211" configVersion="e1ff802e1c0b734ab289966f41cf1aad00000000"/>
+		<Metadata name="Configuration.Конфигурация" id="673b2e0c-c713-47da-aa52-6c0f61144211" configVersion="9b357f09543bd84290a5c69e96fbbe3300000000"/>
 		<Metadata name="Document.ПринятиеКУчетуСертификатов" id="6326d584-be7e-415a-800a-8f405b7125a4" configVersion="7a444803fdbb5148bd259ef12b6f961b00000000">
 			<Metadata name="Document.ПринятиеКУчетуСертификатов.Attribute.Ответственный" id="3d591745-e451-455c-a896-cb4b15dbecfe"/>
 			<Metadata name="Document.ПринятиеКУчетуСертификатов.TabularSection.Сертификаты.Attribute.Количество" id="4815b91a-ec64-4ad1-bb58-3d3ead140409"/>
@@ -61,8 +61,8 @@
 			<Metadata name="Document.ЧекККМ.Attribute.СуммаЧека" id="dc4985df-8f18-428c-ba96-e51c3430014f"/>
 			<Metadata name="Document.ЧекККМ.TabularSection.Сертификаты.Attribute.Сертификат" id="ea4dd0a7-5d45-484e-bbbb-59ad36b3759b"/>
 		</Metadata>
-		<Metadata name="Document.ЧекККМ.Form.ФормаДокумента" id="2e42b74f-389b-4257-8d7e-338909d699f6" configVersion="466aba8020d77649b4d802bc74310e7d00000000"/>
-		<Metadata name="Document.ЧекККМ.Form.ФормаДокумента.Form" id="2e42b74f-389b-4257-8d7e-338909d699f6.0" configVersion="601ac5e31cd07849a40888e26a25633300000000"/>
+		<Metadata name="Document.ЧекККМ.Form.ФормаДокумента" id="2e42b74f-389b-4257-8d7e-338909d699f6" configVersion="74e19a1a47a48141873bf0189544804300000000"/>
+		<Metadata name="Document.ЧекККМ.Form.ФормаДокумента.Form" id="2e42b74f-389b-4257-8d7e-338909d699f6.0" configVersion="5c614f13b54d52408a28cca7c73feae100000000"/>
 		<Metadata name="Document.ЧекККМ.ObjectModule" id="4d4a4338-4429-433c-962f-1dcf6bf29cb4.0" configVersion="560df46998e75548875e0f3e88846bb700000000"/>
 		<Metadata name="Enum.ВидыНоменклатуры" id="f5a22802-74d7-4985-bec4-267748902a40" configVersion="a7e73bf1da5b42489d18ed162d53e12500000000">
 			<Metadata name="Enum.ВидыНоменклатуры.EnumValue.Услуга" id="57a47e42-d5ea-465e-8c0d-71469082dea9"/>
@@ -98,6 +98,8 @@
 			<Metadata name="InformationRegister.ДвиженияСертификатов.Resource.Количество" id="9c2e57da-9a64-454e-afaa-c89811f7fb42"/>
 		</Metadata>
 		<Metadata name="Language.Русский" id="6fa0b9d4-ccf7-4077-878d-27df749fe9f5" configVersion="5457f66bbce98f4391c565058c10fbec00000000"/>
+		<Metadata name="Role.ПолныеПрава" id="1bd840f2-eea2-4b81-b6dc-0e10cd8a98a4" configVersion="94e3e641db54c54aac8eb7260b23044500000000"/>
+		<Metadata name="Role.ПолныеПрава.Rights" id="1bd840f2-eea2-4b81-b6dc-0e10cd8a98a4.0" configVersion="c13631c0ab66374aa4e3a2523518cd5a00000000"/>
 		<Metadata name="Subsystem.Документы" id="e6132d5e-909e-4e77-a764-b7ac95a38256" configVersion="fc11abc921ef20458a5cb33dc5c6f64300000000"/>
 		<Metadata name="Subsystem.НСИ" id="e18d44cb-8e44-43ae-92b5-43edb04452d4" configVersion="d55c1c8ae95a26479ed6d1ae155c09c400000000"/>
 	</ConfigVersions>
