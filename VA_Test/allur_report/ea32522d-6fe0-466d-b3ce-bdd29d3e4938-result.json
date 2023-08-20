@@ -1,0 +1,633 @@
+{
+	"uuid": "ea32522d-6fe0-466d-b3ce-bdd29d3e4938",
+	"historyId": "02. Экспортные сценарий.Я создам владельца карты с параметрами \"пФамилия\" \"пИмя\" \"пОтчество\" \"пДатаРождения\" \"пВладелецКарты\"",
+	"name": "Я создам владельца карты с параметрами \"пФамилия\" \"пИмя\" \"пОтчество\" \"пДатаРождения\" \"пВладелецКарты\"",
+	"fullName": "02. экспорт нси_владелецкарты.feature_я создам владельца карты с параметрами \"пфамилия\" \"пимя\" \"потчество\" \"пдатарождения\" \"пвладелецкарты\"",
+	"testCaseId": "cd09fb8a9c74620fe29f7b83818eabd1",
+	"start": 1692540341358,
+	"stop": 1692540344132,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false,
+		"message": "В таблице <Список> нет строк для выбора.",
+		"trace": "{ВнешняяОбработка.РаботаСИнтерфейсом.Форма.Форма.Форма(3813)}: В таблице <Список> нет строк для выбора.\n\nТехнические данные:\n        ЗаголовокАктивногоОкна: Владелец карты\n        ИмяАктивнойФормы: Справочник.ВладелецКарты.ФормаСписка\n        ИмяФичи: 02. Экспортные сценарий\n        ИмяСценария: Я создам владельца карты с параметрами \"пФамилия\" \"пИмя\" \"пОтчество\" \"пДатаРождения\" \"пВладелецКарты\"\n        НомерСтрокиДерева: 32\n        НомерСтрокиФичи: 46\n        ПолныйПутьКФиче: D:\\Desktop\\ProjektKate\\VA_TESTS\\Tests\\02. Экспорт НСИ_ВладелецКарты.feature\n        ИмяФайла: D:/Desktop/ProjektKate/VA_TESTS/vanessa-automation/features/Libraries/UITestRunner/step_definitions/РаботаСИнтерфейсом.epf\n        ИмяПроцедуры: ВТаблицеЯВыбираюТекущуюСтроку\n        ИмяРаннера: DESKTOP-UJDOIQH\n        ИмяКлиентаТестирования: Этот клиент\n        СинонимКлиентаТестирования: \n        ТипКлиентаТестирования: Тонкий\n        СтрокаСоединения: File=\"D:\\Desktop\\ProjektKate\\BaseProjectK\";\n        ДопПараметрыПодключения: /N\"Администратор\"\n        PIDКлиентаТестирования: 9972\n        ВерсияVA: ver 1.2.040.20\n        ВерсияПлатформы: 8.3.23.1739\n        ТипПлатформы: Windows x86-64\n        РежимСовместимостиTestManager: НеИспользовать\n        ВремяРаботыСценария: 0:00:03 (ч:м:с)\n        ДатаВремяОшибки: 20.08.2023 17:05:44"
+	},
+	"status": "failed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "* Удаление элемента",
+			"start": 1692540341370,
+			"stop": 1692540341639,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И В командном интерфейсе я выбираю 'НСИ' 'Владелец карты'",
+					"start": 1692540341370,
+					"stop": 1692540341409,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "НСИ"
+						},
+						{
+							"name": "Парам2",
+							"value": "Владелец карты"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Тогда открылось окно 'Владелец карты'",
+					"start": 1692540341411,
+					"stop": 1692540341419,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Владелец карты"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'ФормаНайти'",
+					"start": 1692540341421,
+					"stop": 1692540341425,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ФормаНайти"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Тогда открылось окно 'Найти'",
+					"start": 1692540341426,
+					"stop": 1692540341488,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Найти"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в поле с именем 'Pattern' я ввожу текст '[пВладелецКарты]'",
+					"start": 1692540341490,
+					"stop": 1692540341493,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Pattern"
+						},
+						{
+							"name": "Парам2",
+							"value": "[пВладелецКарты]"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'Find'",
+					"start": 1692540341494,
+					"stop": 1692540341499,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Find"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Тогда открылось окно 'Владелец карты'",
+					"start": 1692540341501,
+					"stop": 1692540341532,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Владелец карты"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И пока в таблице \"Список\" количество строк \">\" 0 Тогда",
+					"start": 1692540341534,
+					"stop": 1692540341639,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Список"
+						},
+						{
+							"name": "Парам2",
+							"value": ">"
+						},
+						{
+							"name": "Парам3",
+							"value": 0
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "И В командном интерфейсе я выбираю 'НСИ' 'Владелец карты'",
+			"start": 1692540341641,
+			"stop": 1692540341652,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "НСИ"
+				},
+				{
+					"name": "Парам2",
+					"value": "Владелец карты"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Владелец карты'",
+			"start": 1692540341654,
+			"stop": 1692540341662,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Владелец карты"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаСоздать'",
+			"start": 1692540341663,
+			"stop": 1692540341667,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаСоздать"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "Тогда открылось окно 'Владелец карты (создание)'",
+			"start": 1692540341669,
+			"stop": 1692540341729,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Владелец карты (создание)"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю кнопку выбора у поля с именем \"ДатаРождения\"",
+			"start": 1692540341731,
+			"stop": 1692540341734,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДатаРождения"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'ДатаРождения' я ввожу текст '[пДатаРождения]'",
+			"start": 1692540341736,
+			"stop": 1692540341749,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ДатаРождения"
+				},
+				{
+					"name": "Парам2",
+					"value": "[пДатаРождения]"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я перехожу к следующему реквизиту",
+			"start": 1692540341751,
+			"stop": 1692540341754,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'Фамилия' я ввожу текст '[пФамилия]'",
+			"start": 1692540341755,
+			"stop": 1692540341762,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Фамилия"
+				},
+				{
+					"name": "Парам2",
+					"value": "[пФамилия]"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я перехожу к следующему реквизиту",
+			"start": 1692540341764,
+			"stop": 1692540341766,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'Имя' я ввожу текст '[пИмя]'",
+			"start": 1692540341768,
+			"stop": 1692540341778,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Имя"
+				},
+				{
+					"name": "Парам2",
+					"value": "[пИмя]"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я перехожу к следующему реквизиту",
+			"start": 1692540341780,
+			"stop": 1692540341782,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И в поле с именем 'Отчество' я ввожу текст '[пОтчество]'",
+			"start": 1692540341783,
+			"stop": 1692540341794,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Отчество"
+				},
+				{
+					"name": "Парам2",
+					"value": "[пОтчество]"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я нажимаю на кнопку с именем 'ФормаЗаписатьИЗакрыть'",
+			"start": 1692540341796,
+			"stop": 1692540341806,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "ФормаЗаписатьИЗакрыть"
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "И я жду закрытия окна 'Владелец карты (создание) *' в течение 20 секунд",
+			"start": 1692540341808,
+			"stop": 1692540342213,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [
+				{
+					"name": "Парам1",
+					"value": "Владелец карты (создание) *"
+				},
+				{
+					"name": "Парам2",
+					"value": 20
+				}
+			],
+			"attachments": [],
+			"steps": []
+		},
+		{
+			"name": "* Проверка заполнения",
+			"start": 1692540342215,
+			"stop": 1692540344132,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "Когда открылось окно 'Владелец карты'",
+					"start": 1692540342215,
+					"stop": 1692540342218,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Владелец карты"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"Список\" я выбираю текущую строку",
+					"start": 1692540342219,
+					"stop": 1692540344131,
+					"status": "failed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false,
+						"message": "В таблице <Список> нет строк для выбора.",
+						"trace": "{ВнешняяОбработка.РаботаСИнтерфейсом.Форма.Форма.Форма(3813)}: В таблице <Список> нет строк для выбора.\n\nТехнические данные:\n        ЗаголовокАктивногоОкна: Владелец карты\n        ИмяАктивнойФормы: Справочник.ВладелецКарты.ФормаСписка\n        ИмяФичи: 02. Экспортные сценарий\n        ИмяСценария: Я создам владельца карты с параметрами \"пФамилия\" \"пИмя\" \"пОтчество\" \"пДатаРождения\" \"пВладелецКарты\"\n        НомерСтрокиДерева: 32\n        НомерСтрокиФичи: 46\n        ПолныйПутьКФиче: D:\\Desktop\\ProjektKate\\VA_TESTS\\Tests\\02. Экспорт НСИ_ВладелецКарты.feature\n        ИмяФайла: D:/Desktop/ProjektKate/VA_TESTS/vanessa-automation/features/Libraries/UITestRunner/step_definitions/РаботаСИнтерфейсом.epf\n        ИмяПроцедуры: ВТаблицеЯВыбираюТекущуюСтроку\n        ИмяРаннера: DESKTOP-UJDOIQH\n        ИмяКлиентаТестирования: Этот клиент\n        СинонимКлиентаТестирования: \n        ТипКлиентаТестирования: Тонкий\n        СтрокаСоединения: File=\"D:\\Desktop\\ProjektKate\\BaseProjectK\";\n        ДопПараметрыПодключения: /N\"Администратор\"\n        PIDКлиентаТестирования: 9972\n        ВерсияVA: ver 1.2.040.20\n        ВерсияПлатформы: 8.3.23.1739\n        ТипПлатформы: Windows x86-64\n        РежимСовместимостиTestManager: НеИспользовать\n        ВремяРаботыСценария: 0:00:03 (ч:м:с)\n        ДатаВремяОшибки: 20.08.2023 17:05:44"
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Список"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Тогда открылось окно '[пВладелецКарты] (Владелец карты)'",
+					"start": 1692540344132,
+					"stop": 1692540344132,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "[пВладелецКарты] (Владелец карты)"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И Я закрываю окно '[пВладелецКарты] (Владелец карты)'",
+					"start": 1692540344132,
+					"stop": 1692540344132,
+					"status": "skipped",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "[пВладелецКарты] (Владелец карты)"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Я создам владельца карты с параметрами \"пФамилия\" \"пИмя\" \"пОтчество\" \"пДатаРождения\" \"пВладелецКарты\""
+		},
+		{
+			"name": "feature",
+			"value": "Я создам владельца карты с параметрами \"пФамилия\" \"пИмя\" \"пОтчество\" \"пДатаРождения\" \"пВладелецКарты\""
+		},
+		{
+			"name": "tag",
+			"value": "IgnoreOnCIMainBuild"
+		},
+		{
+			"name": "tag",
+			"value": "ExportScenarios"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Tests"
+		},
+		{
+			"name": "host",
+			"value": "DESKTOP-UJDOIQH"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}
