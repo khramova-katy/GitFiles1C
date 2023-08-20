@@ -1,0 +1,515 @@
+{
+	"uuid": "fc40b625-f673-4322-8f3f-33ee6ffb230e",
+	"historyId": "05. Принятие к учету сертификатов.Создание принятий к учету сертификатов",
+	"name": "Создание принятий к учету сертификатов",
+	"fullName": "05. принятие к учету сертификатов.feature_создание принятий к учету сертификатов",
+	"testCaseId": "3ad0fb17f13b1a7d5663dc76056e4345",
+	"start": 1692565126296,
+	"stop": 1692565126622,
+	"statusDetails": {
+		"known": false,
+		"muted": false,
+		"flaky": false
+	},
+	"status": "passed",
+	"stage": "finished",
+	"steps": [
+		{
+			"name": "* Вввод документа",
+			"start": 1692565126306,
+			"stop": 1692565126531,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И В командном интерфейсе я выбираю 'Документы' 'Принятие к учету сертификатов'",
+					"start": 1692565126306,
+					"stop": 1692565126316,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Документы"
+						},
+						{
+							"name": "Парам2",
+							"value": "Принятие к учету сертификатов"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Когда открылось окно 'Принятие к учету сертификатов'",
+					"start": 1692565126317,
+					"stop": 1692565126353,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Принятие к учету сертификатов"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'ФормаСоздать'",
+					"start": 1692565126353,
+					"stop": 1692565126358,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ФормаСоздать"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Тогда открылось окно 'Принятие к учету сертификатов (создание)'",
+					"start": 1692565126359,
+					"stop": 1692565126392,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Принятие к учету сертификатов (создание)"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"Сертификаты\" я нажимаю на кнопку с именем 'СертификатыДобавить'",
+					"start": 1692565126393,
+					"stop": 1692565126398,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Сертификаты"
+						},
+						{
+							"name": "Парам2",
+							"value": "СертификатыДобавить"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"Сертификаты\" из выпадающего списка с именем \"СертификатыСертификат\" я выбираю точное значение 'Карта Иванова СИ'",
+					"start": 1692565126399,
+					"stop": 1692565126424,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Сертификаты"
+						},
+						{
+							"name": "Парам2",
+							"value": "СертификатыСертификат"
+						},
+						{
+							"name": "Парам3",
+							"value": "Карта Иванова СИ"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я перехожу к следующему реквизиту",
+					"start": 1692565126424,
+					"stop": 1692565126434,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"Сертификаты\" в поле с именем 'СертификатыКоличество' я ввожу текст '1'",
+					"start": 1692565126434,
+					"stop": 1692565126451,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Сертификаты"
+						},
+						{
+							"name": "Парам2",
+							"value": "СертификатыКоличество"
+						},
+						{
+							"name": "Парам3",
+							"value": "1"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"Сертификаты\" я активизирую поле с именем \"СертификатыСтатус\"",
+					"start": 1692565126452,
+					"stop": 1692565126473,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Сертификаты"
+						},
+						{
+							"name": "Парам2",
+							"value": "СертификатыСтатус"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"Сертификаты\" из выпадающего списка с именем \"СертификатыСтатус\" я выбираю точное значение 'В наличии'",
+					"start": 1692565126473,
+					"stop": 1692565126482,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Сертификаты"
+						},
+						{
+							"name": "Парам2",
+							"value": "СертификатыСтатус"
+						},
+						{
+							"name": "Парам3",
+							"value": "В наличии"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"Сертификаты\" я завершаю редактирование строки",
+					"start": 1692565126482,
+					"stop": 1692565126493,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Сертификаты"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"Сертификаты\" я добавляю строку",
+					"start": 1692565126493,
+					"stop": 1692565126499,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Сертификаты"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"Сертификаты\" я активизирую поле с именем \"СертификатыСертификат\"",
+					"start": 1692565126499,
+					"stop": 1692565126516,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Сертификаты"
+						},
+						{
+							"name": "Парам2",
+							"value": "СертификатыСертификат"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"Сертификаты\" я отменяю редактирование строки",
+					"start": 1692565126517,
+					"stop": 1692565126518,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Сертификаты"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И я нажимаю на кнопку с именем 'ФормаПровести'",
+					"start": 1692565126519,
+					"stop": 1692565126531,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "ФормаПровести"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "* Проверка заполнения",
+			"start": 1692565126531,
+			"stop": 1692565126604,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И В командном интерфейсе я выбираю 'Документы' 'Принятие к учету сертификатов'",
+					"start": 1692565126531,
+					"stop": 1692565126581,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Документы"
+						},
+						{
+							"name": "Парам2",
+							"value": "Принятие к учету сертификатов"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "Тогда открылось окно 'Принятие к учету сертификатов'",
+					"start": 1692565126582,
+					"stop": 1692565126600,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Принятие к учету сертификатов"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				},
+				{
+					"name": "И в таблице \"Список\" я выбираю текущую строку",
+					"start": 1692565126600,
+					"stop": 1692565126604,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Список"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		},
+		{
+			"name": "* Проверка движений",
+			"start": 1692565126604,
+			"stop": 1692565126622,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": [
+				{
+					"name": "И В командном интерфейсе я выбираю 'Регистры' 'Движения сертификатов'",
+					"start": 1692565126604,
+					"stop": 1692565126622,
+					"status": "passed",
+					"stage": "finished",
+					"statusDetails": {
+						"known": false,
+						"muted": false,
+						"flaky": false
+					},
+					"parameters": [
+						{
+							"name": "Парам1",
+							"value": "Регистры"
+						},
+						{
+							"name": "Парам2",
+							"value": "Движения сертификатов"
+						}
+					],
+					"attachments": [],
+					"steps": []
+				}
+			]
+		}
+	],
+	"parameters": [],
+	"labels": [
+		{
+			"name": "story",
+			"value": "Создание принятий к учету сертификатов"
+		},
+		{
+			"name": "feature",
+			"value": "Создание принятий к учету сертификатов"
+		},
+		{
+			"name": "tag",
+			"value": "tree"
+		},
+		{
+			"name": "package",
+			"value": "Tests"
+		},
+		{
+			"name": "host",
+			"value": "DESKTOP-UJDOIQH"
+		}
+	],
+	"links": [],
+	"attachments": [],
+	"description": null
+}

@@ -1,0 +1,27 @@
+{
+	"uuid": "5080e784-0272-4fa7-8c99-8d5be5f55451",
+	"name": "Контекст_Ввод Чека ККМ",
+	"description": "",
+	"children": [
+		"5129e4f0-a207-4f5b-9356-00bee9af8e9a"
+	],
+	"befores": [
+		{
+			"name": "И я закрываю все окна клиентского приложения",
+			"start": 1692565124678,
+			"stop": 1692565124876,
+			"status": "passed",
+			"stage": "finished",
+			"statusDetails": {
+				"known": false,
+				"muted": false,
+				"flaky": false
+			},
+			"parameters": [],
+			"attachments": [],
+			"steps": []
+		}
+	],
+	"start": null,
+	"stop": null
+}
