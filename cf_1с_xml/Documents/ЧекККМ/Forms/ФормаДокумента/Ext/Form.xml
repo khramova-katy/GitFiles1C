@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<AutoTime>CurrentOrLast</AutoTime>
+	<UsePostingMode>Auto</UsePostingMode>
+	<RepostOnWrite>true</RepostOnWrite>
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<Events>
+		<Event name="BeforeWrite">ПередЗаписью</Event>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<InputField name="Номер" id="1">
+			<DataPath>Объект.Number</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="НомерКонтекстноеМеню" id="2"/>
+			<ExtendedTooltip name="НомерРасширеннаяПодсказка" id="3"/>
+		</InputField>
+		<InputField name="Дата" id="4">
+			<DataPath>Объект.Date</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="ДатаКонтекстноеМеню" id="5"/>
+			<ExtendedTooltip name="ДатаРасширеннаяПодсказка" id="6"/>
+		</InputField>
+		<InputField name="Контрагент" id="7">
+			<DataPath>Объект.Контрагент</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="КонтрагентКонтекстноеМеню" id="8"/>
+			<ExtendedTooltip name="КонтрагентРасширеннаяПодсказка" id="9"/>
+		</InputField>
+		<InputField name="СуммаЧека" id="10">
+			<DataPath>Объект.СуммаЧека</DataPath>
+			<EditMode>EnterOnInput</EditMode>
+			<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+			<ContextMenu name="СуммаЧекаКонтекстноеМеню" id="11"/>
+			<ExtendedTooltip name="СуммаЧекаРасширеннаяПодсказка" id="12"/>
+		</InputField>
+		<Pages name="Страницы" id="13">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Страницы</v8:content>
+				</v8:item>
+			</Title>
+			<ExtendedTooltip name="СтраницыРасширеннаяПодсказка" id="14"/>
+			<ChildItems>
+				<Page name="ГруппаНоменклатура" id="15">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Номенклатура</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ГруппаНоменклатураРасширеннаяПодсказка" id="16"/>
+					<ChildItems>
+						<Table name="Номенклатура" id="17">
+							<Representation>List</Representation>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.Номенклатура</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="НоменклатураКонтекстноеМеню" id="18"/>
+							<AutoCommandBar name="НоменклатураКоманднаяПанель" id="19"/>
+							<ExtendedTooltip name="НоменклатураРасширеннаяПодсказка" id="20"/>
+							<SearchStringAddition name="НоменклатураСтрокаПоиска" id="21">
+								<AdditionSource>
+									<Item>Номенклатура</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="НоменклатураСтрокаПоискаКонтекстноеМеню" id="22"/>
+								<ExtendedTooltip name="НоменклатураСтрокаПоискаРасширеннаяПодсказка" id="23"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="НоменклатураСостояниеПросмотра" id="24">
+								<AdditionSource>
+									<Item>Номенклатура</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="НоменклатураСостояниеПросмотраКонтекстноеМеню" id="25"/>
+								<ExtendedTooltip name="НоменклатураСостояниеПросмотраРасширеннаяПодсказка" id="26"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="НоменклатураУправлениеПоиском" id="27">
+								<AdditionSource>
+									<Item>Номенклатура</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="НоменклатураУправлениеПоискомКонтекстноеМеню" id="28"/>
+								<ExtendedTooltip name="НоменклатураУправлениеПоискомРасширеннаяПодсказка" id="29"/>
+							</SearchControlAddition>
+							<Events>
+								<Event name="OnChange">НоменклатураПриИзменении</Event>
+							</Events>
+							<ChildItems>
+								<LabelField name="НоменклатураНомерСтроки" id="30">
+									<DataPath>Объект.Номенклатура.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="НоменклатураНомерСтрокиКонтекстноеМеню" id="31"/>
+									<ExtendedTooltip name="НоменклатураНомерСтрокиРасширеннаяПодсказка" id="32"/>
+								</LabelField>
+								<InputField name="НоменклатураНоменклатура" id="33">
+									<DataPath>Объект.Номенклатура.Номенклатура</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="НоменклатураНоменклатураКонтекстноеМеню" id="34"/>
+									<ExtendedTooltip name="НоменклатураНоменклатураРасширеннаяПодсказка" id="35"/>
+								</InputField>
+								<InputField name="НоменклатураКоличество" id="36">
+									<DataPath>Объект.Номенклатура.Количество</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="НоменклатураКоличествоКонтекстноеМеню" id="37"/>
+									<ExtendedTooltip name="НоменклатураКоличествоРасширеннаяПодсказка" id="38"/>
+								</InputField>
+								<InputField name="НоменклатураСумма" id="39">
+									<DataPath>Объект.Номенклатура.Сумма</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="НоменклатураСуммаКонтекстноеМеню" id="40"/>
+									<ExtendedTooltip name="НоменклатураСуммаРасширеннаяПодсказка" id="41"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+				<Page name="ГруппаСертификаты" id="42">
+					<Title>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Сертификаты</v8:content>
+						</v8:item>
+					</Title>
+					<ExtendedTooltip name="ГруппаСертификатыРасширеннаяПодсказка" id="43"/>
+					<ChildItems>
+						<Table name="Сертификаты" id="44">
+							<Representation>List</Representation>
+							<AutoInsertNewRow>true</AutoInsertNewRow>
+							<EnableStartDrag>true</EnableStartDrag>
+							<EnableDrag>true</EnableDrag>
+							<DataPath>Объект.Сертификаты</DataPath>
+							<RowFilter xsi:nil="true"/>
+							<ContextMenu name="СертификатыКонтекстноеМеню" id="45"/>
+							<AutoCommandBar name="СертификатыКоманднаяПанель" id="46"/>
+							<ExtendedTooltip name="СертификатыРасширеннаяПодсказка" id="47"/>
+							<SearchStringAddition name="СертификатыСтрокаПоиска" id="48">
+								<AdditionSource>
+									<Item>Сертификаты</Item>
+									<Type>SearchStringRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СертификатыСтрокаПоискаКонтекстноеМеню" id="49"/>
+								<ExtendedTooltip name="СертификатыСтрокаПоискаРасширеннаяПодсказка" id="50"/>
+							</SearchStringAddition>
+							<ViewStatusAddition name="СертификатыСостояниеПросмотра" id="51">
+								<AdditionSource>
+									<Item>Сертификаты</Item>
+									<Type>ViewStatusRepresentation</Type>
+								</AdditionSource>
+								<ContextMenu name="СертификатыСостояниеПросмотраКонтекстноеМеню" id="52"/>
+								<ExtendedTooltip name="СертификатыСостояниеПросмотраРасширеннаяПодсказка" id="53"/>
+							</ViewStatusAddition>
+							<SearchControlAddition name="СертификатыУправлениеПоиском" id="54">
+								<AdditionSource>
+									<Item>Сертификаты</Item>
+									<Type>SearchControl</Type>
+								</AdditionSource>
+								<ContextMenu name="СертификатыУправлениеПоискомКонтекстноеМеню" id="55"/>
+								<ExtendedTooltip name="СертификатыУправлениеПоискомРасширеннаяПодсказка" id="56"/>
+							</SearchControlAddition>
+							<ChildItems>
+								<LabelField name="СертификатыНомерСтроки" id="57">
+									<DataPath>Объект.Сертификаты.LineNumber</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ContextMenu name="СертификатыНомерСтрокиКонтекстноеМеню" id="58"/>
+									<ExtendedTooltip name="СертификатыНомерСтрокиРасширеннаяПодсказка" id="59"/>
+								</LabelField>
+								<InputField name="СертификатыСертификат" id="60">
+									<DataPath>Объект.Сертификаты.Сертификат</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="СертификатыСертификатКонтекстноеМеню" id="61"/>
+									<ExtendedTooltip name="СертификатыСертификатРасширеннаяПодсказка" id="62"/>
+								</InputField>
+								<InputField name="СертификатыКоличество" id="63">
+									<DataPath>Объект.Сертификаты.Количество</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="СертификатыКоличествоКонтекстноеМеню" id="64"/>
+									<ExtendedTooltip name="СертификатыКоличествоРасширеннаяПодсказка" id="65"/>
+								</InputField>
+								<InputField name="СертификатыСтатус" id="66">
+									<DataPath>Объект.Сертификаты.Статус</DataPath>
+									<EditMode>EnterOnInput</EditMode>
+									<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+									<ContextMenu name="СертификатыСтатусКонтекстноеМеню" id="67"/>
+									<ExtendedTooltip name="СертификатыСтатусРасширеннаяПодсказка" id="68"/>
+								</InputField>
+							</ChildItems>
+						</Table>
+					</ChildItems>
+				</Page>
+			</ChildItems>
+		</Pages>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="Объект" id="1">
+			<Type>
+				<v8:Type>cfg:DocumentObject.ЧекККМ</v8:Type>
+			</Type>
+			<MainAttribute>true</MainAttribute>
+			<SavedData>true</SavedData>
+			<UseAlways>
+				<Field>Объект.RegisterRecords</Field>
+			</UseAlways>
+		</Attribute>
+	</Attributes>
+</Form>
