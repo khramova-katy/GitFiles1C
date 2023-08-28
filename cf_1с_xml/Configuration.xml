@@ -228,6 +228,7 @@
 			<Subsystem>Документы</Subsystem>
 			<Subsystem>Регистры</Subsystem>
 			<Role>ПолныеПрава</Role>
+			<CommonModule>ОбщийМодульСервер</CommonModule>
 			<Catalog>Номенклатура</Catalog>
 			<Catalog>ИнформационныеКарты</Catalog>
 			<Catalog>ЕдиницыИзмерения</Catalog>

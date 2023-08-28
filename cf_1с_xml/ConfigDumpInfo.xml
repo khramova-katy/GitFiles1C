@@ -20,19 +20,23 @@
 		<Metadata name="Catalog.ВладелецКарты.Form.ФормаЭлемента" id="35fdb9fa-bdb4-402a-a823-47a933f93351" configVersion="0a59540f61c14843919b9e67237a814f00000000"/>
 		<Metadata name="Catalog.ВладелецКарты.Form.ФормаЭлемента.Form" id="35fdb9fa-bdb4-402a-a823-47a933f93351.0" configVersion="d7456cd8763fb441865ddadcc43a126100000000"/>
 		<Metadata name="Catalog.ЕдиницыИзмерения" id="055835d5-0d94-46de-a7d0-ccda234a04e4" configVersion="03ba9b085abb124982161db119979a9700000000"/>
-		<Metadata name="Catalog.ИнформационныеКарты" id="e26f7a3a-2850-460e-8c8d-2a112b26289e" configVersion="daf3eaa72f88494eb2ff7d6519458e4900000000">
+		<Metadata name="Catalog.ИнформационныеКарты" id="e26f7a3a-2850-460e-8c8d-2a112b26289e" configVersion="a30070a5a14351498d38c2c4e4aee2a500000000">
 			<Metadata name="Catalog.ИнформационныеКарты.Attribute.КоличествоЧеков" id="1acc23c5-3ddf-4abd-ac55-150aa08f3ff2"/>
 			<Metadata name="Catalog.ИнформационныеКарты.Attribute.Бонусная" id="38eb6dfb-2167-42d4-a4f0-0123fa53340d"/>
 			<Metadata name="Catalog.ИнформационныеКарты.Attribute.ВладелецКарты" id="9e602194-859b-487f-b230-5bb96c377a2e"/>
 			<Metadata name="Catalog.ИнформационныеКарты.Attribute.ВидДисконтнойКарты" id="cb28acc2-a151-4ddb-a135-c1fddbe675ad"/>
 		</Metadata>
+		<Metadata name="Catalog.ИнформационныеКарты.Form.ФормаЭлемента" id="9e5694a7-a86b-4df1-a42b-cd6edb5660d8" configVersion="4fc9e2c211f48d45a40d48ad96f2e1ce00000000"/>
+		<Metadata name="Catalog.ИнформационныеКарты.Form.ФормаЭлемента.Form" id="9e5694a7-a86b-4df1-a42b-cd6edb5660d8.0" configVersion="18776d223fea0546a58396d768d890bd00000000"/>
 		<Metadata name="Catalog.Номенклатура" id="733bbcbf-8033-4caf-a8b9-a548b3b56a24" configVersion="4bbed9f97ba3ec4c8a33bc14e6a8383400000000">
 			<Metadata name="Catalog.Номенклатура.Attribute.ВидНоменклаутры" id="6e5f6bd9-6955-402f-bb16-c55c0a3d680f"/>
 			<Metadata name="Catalog.Номенклатура.Attribute.НДС" id="f216a59e-5cda-4afc-9bca-22e5eafc3f7e"/>
 			<Metadata name="Catalog.Номенклатура.Attribute.ЕдиницаИзмерения" id="f7039c0d-70b7-47a8-b60e-2eb3bf08a405"/>
 		</Metadata>
 		<Metadata name="Catalog.Номенклатура.Predefined" id="733bbcbf-8033-4caf-a8b9-a548b3b56a24.1c" configVersion="b2bff99100f6634d8ed2fd7ee7b4864100000000"/>
-		<Metadata name="Configuration.Конфигурация" id="673b2e0c-c713-47da-aa52-6c0f61144211" configVersion="283483f41761b94f846d8ea28744b08400000000"/>
+		<Metadata name="CommonModule.ОбщийМодульСервер" id="11524529-81e1-429b-baec-b66bb82e638e" configVersion="246a881c4f4d9f43abefa2c9ef9f8be400000000"/>
+		<Metadata name="CommonModule.ОбщийМодульСервер.Module" id="11524529-81e1-429b-baec-b66bb82e638e.0" configVersion="994476acdb5f744ab779b0014e0c734200000000"/>
+		<Metadata name="Configuration.Конфигурация" id="673b2e0c-c713-47da-aa52-6c0f61144211" configVersion="3d029b2bf7ec644dad1934a157762ee500000000"/>
 		<Metadata name="Document.ПринятиеКУчетуСертификатов" id="6326d584-be7e-415a-800a-8f405b7125a4" configVersion="8f92e8df99d04c48ab0f0be6ba67e5e500000000">
 			<Metadata name="Document.ПринятиеКУчетуСертификатов.Attribute.Ответственный" id="3d591745-e451-455c-a896-cb4b15dbecfe"/>
 			<Metadata name="Document.ПринятиеКУчетуСертификатов.TabularSection.Сертификаты.Attribute.Количество" id="4815b91a-ec64-4ad1-bb58-3d3ead140409"/>
